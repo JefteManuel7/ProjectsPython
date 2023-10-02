@@ -11,9 +11,9 @@ from Delete import eliminar_estudiante
 from Insertion import insertar_estudiantes
 from Update import actualizar_estudiante
 
-exit = False  # Inicializa la variable exit con False
+exit = False 
 
-while not exit:  # Usa "not exit" en lugar de "exit == False"
+while not exit: 
     
     print('------------Menu----------')
     print('1-Ingresar alumnos')
@@ -25,11 +25,11 @@ while not exit:  # Usa "not exit" en lugar de "exit == False"
 
     if opcion == 1:
         n_alumnos = int(input('Cuantos alumnos desea registrar?: '))
-        insertar_estudiantes(n_alumnos)  # Agrega paréntesis para llamar a la función
+        insertar_estudiantes(n_alumnos) 
 
     elif opcion == 2:
         id_estudiante = int(input('Ingrese el ID del estudiante a actualizar: '))
-        actualizar_estudiante(id_estudiante)  # Agrega paréntesis para llamar a la función
+        actualizar_estudiante(id_estudiante)  
 
     elif opcion == 3:
         id_estudiante = int(input('Ingrese el ID del estudiante a eliminar: '))
