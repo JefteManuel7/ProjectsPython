@@ -2,7 +2,7 @@ import psycopg2
 
 host = 'localhost'
 database = 'students'
-user = 'postgres'  # Quita la coma al final del valor del usuario
+user = 'postgres'  
 password = '$$Adm1n##'
 
 try:
@@ -10,7 +10,7 @@ try:
 
         host=host,
         database=database,
-        user=user,  # Sin coma al final
+        user=user,  
         password=password
     )
 
